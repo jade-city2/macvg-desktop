@@ -1,0 +1,13 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.macvg.macweb
+productName: MacVG
+win:
+  target: nsis
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+files: []
+electronVersion: 45.0.0
