@@ -11,7 +11,8 @@ npm start # starts the app
 ```
 To build the Windows installer:
 ```bash
-npm run dist
+npm run dist # normal setup
+npm run dist:portable # portable version
 ```
 To build a Linux AppImage:
 ```bash
