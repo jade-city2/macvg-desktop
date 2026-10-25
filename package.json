@@ -7,6 +7,7 @@
     "start": "electron .",
     "dist": "electron-builder --win nsis",
     "dist:portable": "electron-builder --win portable",
+    "dist:linux": "electron-builder --linux AppImage",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
