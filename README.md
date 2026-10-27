@@ -11,11 +11,21 @@ npm start # starts the app
 ```
 To build the Windows installer:
 ```bash
-npm run dist # normal setup
+npm run dist:win # normal setup
 npm run dist:portable # portable version
 ```
 To build a Linux AppImage:
 ```bash
 npm run dist:linux
 ```
-Builds appear in the `release` folder.
+
+To build a macOS DMG:
+```bash
+npm run dist:mac
+```
+Note: macOS builds must be run on a Mac (or via CI on macOS). Place an `icon.icns` in a `build/` folder for a custom app icon.
+
+To build for all platforms at once:
+```bash
+npm run dist:all
+```
